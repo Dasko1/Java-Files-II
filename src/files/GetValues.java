@@ -8,7 +8,7 @@ public class GetValues {
     private static String z = "";
 
     public static void wew() {
-        System.out.print("Enter name: ");
+        System.out.print("Enter Name: ");
         String a = inp.nextLine();
         z = a;
     }

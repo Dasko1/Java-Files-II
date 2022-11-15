@@ -6,7 +6,7 @@ public class ArrayTwo {
 
         String[] weekdays =  {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
 
-       for (String i : weekdays){
+       for (String i : weekdays) {
             System.out.println(i);
         }
        System.out.println("\nThe number of elements: " + weekdays.length);
