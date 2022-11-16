@@ -1,16 +1,16 @@
+// GetValues.java: execute this from SampleRun.java
 package files;
 
 import java.util.Scanner;
 
 public class GetValues {
 
-    private static Scanner inp = new Scanner(System.in);
+    private static final Scanner input = new Scanner(System.in);
     private static String z = "";
 
     public static void wew() {
         System.out.print("Enter Name: ");
-        String a = inp.nextLine();
-        z = a;
+        z = input.nextLine();
     }
 
     public static String kuhaName() {
