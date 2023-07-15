@@ -1,7 +1,7 @@
 package files;
 
 public class Pass2AnotherClass {
-    public int x = 10;
+    public int variabletopass = 10;
 }
 
 // The class above does just one thing: it creates the integer 10.
@@ -12,9 +12,9 @@ class B {
         Pass2AnotherClass a = new Pass2AnotherClass();
 
         // Access the variable x from ClassA
-        int y = a.x;
+        int variablefromotherclass = a.variabletopass;
 
         // Print the value of y
-        System.out.println("\nThe number from class Pass2AnotherClass is: " + y);
+        System.out.println("\nThe number from class Pass2AnotherClass is: " + variablefromotherclass);
     }
 }
