@@ -13,6 +13,5 @@ public class StringArrayExample {
 
             Assert.assertEquals("Friday", "Friday");
         }
-
     }
 }
