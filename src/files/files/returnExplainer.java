@@ -17,3 +17,5 @@ public class returnExplainer{
         System.out.println(result.getX(result.x, result.y));        // 'result' prints the values returned from the getX method.
     }
 }
+
+// See GetReturn.java to see the result in another file.

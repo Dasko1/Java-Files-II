@@ -11,6 +11,8 @@ public class SelenideExampleTest {
     @BeforeAll
     public static void setup() {
         // Configure Selenide
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dasko\\Chromedriver\\chromedriver.exe");
+        System.setProperty("selenide.browser", "Chrome");
         Configuration.browser = "chrome";
         Configuration.baseUrl = "https://example.com";
     }
