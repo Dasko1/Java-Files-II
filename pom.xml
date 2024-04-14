@@ -26,6 +26,12 @@
       <scope>test</scope>
     </dependency>
     <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest-core</artifactId>
+      <version>1.3</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
       <groupId><![CDATA[com.codeborne]]></groupId>
       <artifactId>selenide</artifactId>
       <version>6.12.3</version>
