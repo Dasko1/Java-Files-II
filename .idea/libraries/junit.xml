@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="codeborne.selenide" type="repository">
+  <library name="junit" type="repository">
     <properties maven-id="com.codeborne:selenide:6.9.0" />
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/6.9.0/selenide-6.9.0.jar!/" />
