@@ -1,16 +1,10 @@
-package files;
-
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
+import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
-import org.openqa.selenium.By;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
-
-public class GoogleTest {
+public class ExampleTest {
 
     @BeforeAll
     public static void setup() {
@@ -21,12 +15,15 @@ public class GoogleTest {
         Configuration.baseUrl = "https://www.google.com";
     }
 
-
     @Test
-    public void searchSelenideInGoogle(){
-        open("/");
-        $(By.name("q")).val("selenide").pressEnter();
-        Selenide.sleep(1500);
-        $(By.id("center_col")).shouldHave(Condition.text("Selenide: concise UI tests in Java"));
+    public void testPageTitle() {
+        // Open the webpage
+        Selenide.open("/");
+
+        // Get the page title
+        String pageTitle = Selenide.title();
+
+        // Assert the page title using AssertJ
+        Assertions.assertThat(pageTitle).isEqualTo("Google");
     }
 }
