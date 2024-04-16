@@ -11,4 +11,8 @@ public class Add1 {
 
         System.out.println("\nThe sum is: " + z);
     }
+
+    public static int add(int x, int y) {
+        return x + y;
+    }
 }
