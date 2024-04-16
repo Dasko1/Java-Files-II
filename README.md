@@ -7,3 +7,10 @@
 * Use Copilot to create Selenium or Robot Framework (C:\Users\Dasko\Java-Robot) tests.
   * Test Site: https://demoqa.com/
     * Username/Password: Dasko/bfly5gbH1!
+
+
+
+## GUIDES
+
+* For a **return** statement, see GenerateRandomInteger.java.
+* To get a value created in another class, see GetRandomNumber.java.

@@ -9,7 +9,7 @@ public class GenerateRandomInteger {
         // Create instance of Random class!
         Random rand = new Random();
 
-        // Generate random integers in from 0 to 999!
+        // Generate random integers in from 0 to 999! You can also create an inline variable: return rand.nextInt(1000)
         int rand_int1 = rand.nextInt(1000);
 
         return rand_int1;
