@@ -1,3 +1,4 @@
+// GenerateRandomInteger.java: this class generates a random number which can be printed out in GetRandomNumber.java!
 package files;
 
 import java.util.Random;
