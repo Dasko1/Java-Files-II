@@ -2,7 +2,7 @@ package files;
 
 import java.util.Scanner;
 
-public class Add2EnterNums {
+public class Add2EnterNums extends Object{
 
     public static void main(String[] args){
 
@@ -16,5 +16,9 @@ public class Add2EnterNums {
         int z = x + y;
 
         System.out.println("The sum is: " + z);
+    }
+
+    public static int calculateSum(int x, int y) {
+        return x + y;
     }
 }
