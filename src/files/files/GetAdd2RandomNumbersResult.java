@@ -1,3 +1,4 @@
+// This gets and adds the random numbers generated in the file Add2RandomNumbers.java!
 package files;
 
 public class GetAdd2RandomNumbersResult {
