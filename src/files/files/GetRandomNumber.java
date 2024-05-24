@@ -1,4 +1,4 @@
-// GetRandomNumber.java: this programs gets the random integer generated in GenerateRandomInteger.java!
+// GetRandomNumber.java: this program gets the random integer generated in GenerateRandomInteger.java!
 package files;
 
 public class GetRandomNumber {

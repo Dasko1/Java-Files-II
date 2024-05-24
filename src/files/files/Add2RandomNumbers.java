@@ -1,3 +1,4 @@
+// See GetRandomNumber.java ll.15-17! Even more interesting, see GetAdd2RandomNumbersResult.java!
 package files;
 
 import java.util.Random;

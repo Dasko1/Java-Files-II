@@ -1,4 +1,5 @@
 // GenerateRandomInteger.java: this class generates a random number which can be printed out in GetRandomNumber.java!
+// Note the possibility for the inline variable.
 package files;
 
 import java.util.Random;
@@ -14,5 +15,14 @@ public class GenerateRandomInteger {
         int rand_int1 = rand.nextInt(1000);
 
         return rand_int1;
+    }
+
+    public static int rando1(){
+
+        Random rand1 = new Random();
+
+        int rand_int2 = rand1.nextInt(1000);
+
+        return rand_int2;
     }
 }

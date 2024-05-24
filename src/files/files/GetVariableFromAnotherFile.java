@@ -12,6 +12,6 @@ public class GetVariableFromAnotherFile {
 }
 
 
-// This file gets the data from Pass2AnotherFile.java, that is why it has the main method in l.7.  Note how you create a new instance of
+// This file gets the data from Pass2AnotherFile.java, that is why it has the main method in l.5.  Note how you create a new instance of
 // class Pass2AnotherFile and call it "a": this is the object variable, which now does the work.  The new instance "a" gets the data from
 // Pass2AnotherFile, which is called variablefromotherfile, and you let the new variable "variablefromthisfile" get its value of 10.
