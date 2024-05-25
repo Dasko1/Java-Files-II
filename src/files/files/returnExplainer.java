@@ -1,3 +1,4 @@
+// See GetReturn.java to see the result in another file.
 package files;
 
 public class returnExplainer{
@@ -10,12 +11,4 @@ public class returnExplainer{
 
         return sum;
     }
-
-    public static void main(String[] args){
-
-        returnExplainer result = new returnExplainer();             // Calls new instance variable or object of class returnExplainer
-        System.out.println(result.getX(result.x, result.y));        // 'result' prints the values returned from the getX method.
-    }
 }
-
-// See GetReturn.java to see the result in another file.
