@@ -13,8 +13,10 @@ public class SampleReturn2
 
         int x = rand.nextInt(1000);
         int y = rand.nextInt(1000);
+
         System.out.println("x = " + x + "\ny = " + y);
-        if(x > y)
+
+        if (x > y)
             return x;
         else
             return y;

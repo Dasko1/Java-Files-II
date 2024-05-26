@@ -15,3 +15,4 @@
 * For a **return** statement, see GenerateRandomInteger.java.
 * To get a value created in another class, see GetRandomNumber.java.
 * Another good example is GetVariableFromAnotherFile.java.
+* For another example of getting a return value from another class, see Multiply2RandomNumbers.java & GetProd2RandNums.java
