@@ -7,6 +7,8 @@
 * Use Copilot to create Selenium or Robot Framework (C:\Users\Dasko\Java-Robot) tests.
   * Test Site: https://demoqa.com/
     * Username/Password: Dasko/bfly5gbH1!
+* Constructors
+* Getters & Setters
 
 
 
@@ -17,3 +19,4 @@
 * Another good example is GetVariableFromAnotherFile.java.
 * For another example of getting a return value from another class, see Multiply2RandomNumbers.java & GetProd2RandNums.java.
 * For a good file to understand the return statement, see EnterNameReturn.java.
+* Return with arguments: ReturnWithArgs.java
