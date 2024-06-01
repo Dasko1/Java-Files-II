@@ -20,3 +20,4 @@
 * For another example of getting a return value from another class, see Multiply2RandomNumbers.java & GetProd2RandNums.java.
 * For a good file to understand the return statement, see EnterNameReturn.java.
 * Return with arguments: ReturnWithArgs.java
+* Constructor Examples: ConstructorParams.java & ConstructorSmallEx.java
