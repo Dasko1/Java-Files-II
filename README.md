@@ -21,3 +21,4 @@
 * For a good file to understand the return statement, see EnterNameReturn.java.
 * Return with arguments: ReturnWithArgs.java
 * Constructor Examples: ConstructorParams.java & ConstructorSmallEx.java
+* Getters & Setters: Vehicle.java
