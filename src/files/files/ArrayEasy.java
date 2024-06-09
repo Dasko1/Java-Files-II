@@ -1,3 +1,4 @@
+// See also ArrayRandomDayPick.java & DayRandom.java for additional arrays!
 package files;
 
 public class ArrayEasy {

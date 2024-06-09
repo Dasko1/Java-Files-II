@@ -1,3 +1,4 @@
+// Use ArrayEasy.java for help; DayRandom.java will get the randomly-generated day of the week.
 package files;
 
 import java.util.Random;
