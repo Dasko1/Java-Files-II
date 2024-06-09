@@ -1,3 +1,6 @@
+// NOTE: anyday is the class object, the new instance of the class ArrayRandomDayPick, and arrayDay is the method from
+// ArrayRandomDayPick.  anyday is the class object or the noun & arrayDay is the verb, or the action. In other words,
+// anyday is the feature & arrayDay is the action.
 package files;
 
 public class DayRandom {
