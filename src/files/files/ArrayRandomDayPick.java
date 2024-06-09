@@ -1,5 +1,5 @@
 // Use ArrayEasy.java for help; DayRandom.java will get the randomly-generated day of the week.
-// There are 2 diffent actions here in the method ArrayRandomDayPick: 1) ll.11-15 creates a random number between 0-6 to pick a
+// There are 2 diffent actions here in the method ArrayRandomDayPick: 1) ll.12-16 creates a random number between 0-6 to pick a
 // day of the week, and 2) ll.18-19 creates the day of the week array itself. l.21 ends the method.
 package files;
 
