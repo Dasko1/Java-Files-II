@@ -7,7 +7,7 @@ public class ArrayEasy {
 
         String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
 
-        String car = cars[0];                   // You have to create a String variable for the item selected from the array.
+        String car = cars[2];                   // You have to create a String variable for the item selected from the array.
 
         return car;
     }
