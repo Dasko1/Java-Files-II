@@ -1,3 +1,4 @@
+//Go to GetProd2RandNums.java to execute and return a product.
 package files;
 
 import java.util.Random;
