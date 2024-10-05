@@ -7,7 +7,7 @@ public class EnterNameReturn {
     public String returnName(){
 
         Scanner myObj = new Scanner(System.in);                                 // Create a Scanner object!
-        System.out.print("Enter username: ");                                   // Code the app from ll.9-12
+        System.out.print("Enter username: ");                                 // Code the app from ll.9-12
 
         String userName = myObj.nextLine();                                     // Read user input
 

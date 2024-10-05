@@ -15,7 +15,7 @@ public class Add2EnterNums extends Object{
 
         int z = x + y;
 
-        System.out.println("The sum is: " + z);
+        System.out.println("\nThe sum is: " + z);
     }
 
     public static int calculateSum(int x, int y) {
