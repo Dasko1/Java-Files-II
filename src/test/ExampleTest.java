@@ -9,7 +9,7 @@ public class ExampleTest {
     @BeforeAll
     public static void setup() {
         // Configure Selenide
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dasko\\Chromedriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Google\\Chrome\\Application\\chromedriver.exe");
         System.setProperty("selenide.browser", "Chrome");
         Configuration.browser = "chrome";
         Configuration.baseUrl = "https://www.google.com";
