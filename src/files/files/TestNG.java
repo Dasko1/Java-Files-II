@@ -12,9 +12,7 @@ import org.testng.annotations.*;
 
 public class TestNG {
 
-    WebDriver driver;
-
-
+    ChromeDriver driver;
 
     @Test
     public void f() {
@@ -37,7 +35,7 @@ public class TestNG {
 
     @AfterMethod
     public void afterMethod() {
-        driver.close();
+        //driver.close();
         System.out.println("Finished Test On Chrome Browser");
     }
 }

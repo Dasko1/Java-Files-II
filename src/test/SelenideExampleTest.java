@@ -1,16 +1,19 @@
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import org.assertj.core.api.Assertions;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+
 
 public class SelenideExampleTest {
 
-    @BeforeAll
+    @BeforeMethod
     public static void setup() {
         // Configure Selenide
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dasko\\Chromedriver\\chromedriver.exe");
-        System.setProperty("selenide.browser", "Chrome");
+        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Google\\Chrome\\Application\\chromedriver.exe");
+        //System.setProperty("selenide.browser", "Chrome");
         Configuration.browser = "chrome";
         Configuration.baseUrl = "https://example.com";
     }
@@ -38,5 +41,11 @@ public class SelenideExampleTest {
         // Assert the visibility using AssertJ
         Assertions.assertThat(isButtonVisible).isFalse();
     }
+
+    @AfterMethod
+    public void afterMethod(){
+        Selenide.closeWindow();
+    }
+
 }
 

@@ -83,6 +83,11 @@
       <artifactId>selenium-devtools-v108</artifactId>
       <version>4.8.0</version>
     </dependency>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-http-jdk-client</artifactId>
+      <version>4.10.0</version>
+    </dependency>
   </dependencies>
 
   <build>
