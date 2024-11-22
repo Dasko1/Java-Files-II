@@ -15,27 +15,27 @@ public class TestNG {
     ChromeDriver driver;
 
     @Test
-    public void f() {
+    public void getTitle() throws InterruptedException {
 
-        String baseUrl = "https://www.toolsqa.com/";
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--remote-allow-origins=*");
-        ChromeDriver driver = new ChromeDriver(options);
-        System.out.println("Launching Google Chrome browser");
-        driver.get(baseUrl);
         String testTitle = "Tools QA";
+        Thread.sleep(2500);
         String originalTitle = driver.getTitle();
         Assert.assertEquals(originalTitle, testTitle);
     }
 
     @BeforeMethod
     public void beforeMethod() {
-        System.out.println("Starting Test On Chrome Browser");
+
+        System.setProperty("webdriver.http.factory", "jdk-http-client");
+        System.out.println("Test Starting...");
+        driver = new ChromeDriver();
+        driver.get("https://www.toolsqa.com/");
+        driver.manage().window().maximize();
     }
 
     @AfterMethod
     public void afterMethod() {
-        //driver.close();
+        driver.close();
         System.out.println("Finished Test On Chrome Browser");
     }
 }
