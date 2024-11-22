@@ -21,11 +21,11 @@ public class TestNG {
         Thread.sleep(2500);
         String originalTitle = driver.getTitle();
         Assert.assertEquals(originalTitle, testTitle);
+
     }
 
     @BeforeMethod
     public void beforeMethod() {
-
         System.setProperty("webdriver.http.factory", "jdk-http-client");
         System.out.println("Test Starting...");
         driver = new ChromeDriver();
