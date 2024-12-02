@@ -5,9 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class LaunchBrowser {
 
@@ -26,7 +24,7 @@ public class LaunchBrowser {
         Assert.assertNotEquals(logoImg, "");
     }
 
-    @BeforeClass
+    @BeforeTest
     public void setUp() {
         System.setProperty("webdriver.http.factory", "jdk-http-client");
         System.out.println("Test Starting...");
@@ -34,9 +32,8 @@ public class LaunchBrowser {
         driver.get("https://www.browserstack.com/");
     }
 
-    @AfterClass
+    @AfterTest
     public void tearDown(){
-
         driver.close();
     }
 }
