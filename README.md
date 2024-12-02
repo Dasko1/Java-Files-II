@@ -24,6 +24,7 @@
 * Getters & Setters: Vehicle.java
 
 ## TestNG
+* Use Selenide!
 * LaunchBrowser.java
 * TestNG.java
 
