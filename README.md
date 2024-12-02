@@ -29,5 +29,5 @@
 
 ## Process
 * Write a test like LoginPage.java for https://demoqa.com/login - this file is in Temp.
- * Login Info: ADee/Abcd1234!   
+  * Login Info: ADee/Abcd1234!   
 * Write a driver script that uses a main method that will execute LoginPage.java.
