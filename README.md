@@ -19,9 +19,11 @@
 * Another good example is GetVariableFromAnotherFile.java.
 * For another example of getting a return value from another class, see Multiply2RandomNumbers.java & GetProd2RandNums.java.
 * For a good file to understand the return statement, see EnterNameReturn.java.
+  * This is also a good explanation of object variables.   
 * Return with arguments: ReturnWithArgs.java
 * Constructor Examples: ConstructorParams.java & ConstructorSmallEx.java
 * Getters & Setters: Vehicle.java
+* Object Variable: see GetProd2RandNums.java
 
 ## TestNG
 * Use Selenide!
