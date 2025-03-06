@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.selenide.examples</groupId>
-  <artifactId>google-test</artifactId>
+  <artifactId>demoqa-test</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>google-test</name>
+  <name>demoqa-test</name>
   <!-- FIXME change it to the project's website -->
   <url>https://demoqa.com/</url>
 
@@ -32,7 +32,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId><![CDATA[com.codeborne]]></groupId>
+      <groupId>com.codeborne</groupId>
       <artifactId>selenide</artifactId>
       <version>6.12.3</version>
       <scope>test</scope>
